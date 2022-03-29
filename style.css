@@ -1,0 +1,27 @@
+body {
+    margin: 0px;
+    background-color: #708090;
+    border-top: 5px rgb(144, 211, 255);
+}
+
+nav {
+    padding: 20px;
+    background: rgba(0, 0, 0, 1);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    padding: 0px 20px;
+    margin: 0px 0px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+nav a:hover {
+    /*color: #0088a9;*/
+    color: hsl(0, 100%, 51%);
+}
